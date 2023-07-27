@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <!-- nav bar -->
+  <nav class="navbar navbar-expand-lg  head">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation"
+        style="background-color: white;">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand mx-5" href="#"
+        style="color: white; font-size: 25px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">VikasBlog</a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+        <form class="d-flex mx-5" role="search">
+
+          <button class="btn btn-outline-success" type="submit"
+            style="color: white; border-color: white; font-size: 15px;">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="home"></div>
+
+  <main class="container" id="home">
+    <div class="p-4 p-md-5 mb-4 rounded title-right hov">
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <h1 class="display-2 fst-italic "> Exploring the Future of Technology and Education</h1>
+
+        <div class="img">
+          <img src="./images/Blog Post.jpg" class="col-lg-6 mt-3 d-block d-md-none" alt="">
+        </div>
+      </div>
+      <div class="img1">
+        <img src="./images/Blog Post.jpg" class="col-lg-6 d-none d-md-block" height="370px" alt="">
+      </div>
+    </div>
+  </main>
+
+  <div class="row featurette m-5 about" id="about">
+    <div class="col-md-7 order-md-2 about-text">
+      <h2 class="featurette-heading fw-normal lh-1 mt-2">About: </h2>
+      <p class="lead">Hi there! My name is Vikas Yadav, and I’m a student of bachelor of technology in Shri Ramswaroop Memorial University.</p>
+      <p class="lead">Currently I am doing a 1 month virtual intership at Code Alpha.</p>
+      <p class="lead">My goal is to develop my theoritical knowledge and perform in a real world projects .</p>
+      <p class="lead">I am eager to explore new opportunities and collaborate with like-mindedindividuals to create innovative and meaningful projects..</p>
+    </div>
+    <div class="col-md-5 order-md-1">
+      <img src="./images/about.avif " style="width: 100%; height: 400px;">
+    </div>
+  </div>
+
+  <!-- all news -->
+  <div class="post-filter container " style="color: white;">
+    <span class="filter-item active-filter" data-filter="all">All</span>
+    <span class="filter-item" data-filter="tech">Technologys</span>
+    <span class="filter-item" data-filter="teach">Education</span>
+    <span class="filter-item" data-filter="news">News</span>
+    <span class="filter-item" data-filter="entertainment">Entertainment</span>
+  </div>
+
+  <div class="post container mt-5" id="blog">
+    <!-- Post 1 -->
+    <div class="post-box tech hover">
+      <img src="images/micro.avif" alt="" class="post-img">
+      <h2 class="category">Tech</h2>
+      <a href="#" class="post-title">Microsoft Teams, Excel, Word to get AI features as company announces new
+        subscription plans</a>
+      <span class="post-date">19 july 2023</span>
+      <p class="post-description">Microsoft Copilot will help users leverage AI features such as ranking incoming
+        emails, summarizing meetings, analyzing spreadsheet data, offering writing prompts and more</p>
+    </div>
+    <!-- Post 2 -->
+    <div class="post-box news hover">
+      <img src="images/fb.avif" alt="" class="post-img">
+      <h2 class="category">News</h2>
+      <a href="#" class="post-title">Meta CEO Mark Zuckerberg claims 10s of millions of Threads users coming back daily
+        amid reports about drop in engagement</a>
+      <span class="post-date">20 July 2023</span>
+      <p class="post-description">Meta CEO Mark Zuckerberg has announced that the focus for the Threads team for the
+        rest of the year is improving the basics and user retention.</p>
+    </div>
+    <!-- Post 3 -->
+    <div class="post-box teach hover">
+      <img src="images/gpt.avif" alt="" class="post-img">
+      <h2 class="category">Education</h2>
+      <a href="#" class="post-title">Samsung may soon bring ChatGPT to its smartphones via the browser; check all
+        details</a>
+      <span class="post-date">20 July 2023</span>
+      <p class="post-description">samsung has been actively exploring ways to incorporate artificial intelligence (AI)
+        into its smartphones. Earlier this year, there were reports suggesting that Samsung was considering switching
+        from Google Search to Microsoft Bing for its AI features, causing some panic at Google.</p>
+    </div>
+    <!-- Post 4 -->
+    <div class="post-box teach hover">
+      <img src="images/ncet-eductaion.avif" alt="" class="post-img">
+      <h2 class="category">Education</h2>
+      <a href="#" class="post-title">NCET 2023 appliation deadline extended to July 25; how to apply</a>
+      <span class="post-date">20 July 2023</span>
+      <p class="post-description">NCET 2023: The National Testing Agency (NTA) has extended the deadline to apply for
+        National Common Entrance Test (NCET) 2023 for admissions to 4 year Integrated Teacher Education Programme (ITEP)
+        in selected Central or State universities/institutions which also includes IITs, NITs, RIEs and Government
+        colleges. The last date to fill the application form is July 25 till 11:30 pm.</p>
+    </div>
+    <!-- Post 5 -->
+    <div class="post-box news hover">
+      <img src="images/google.avif" alt="" class="post-img">
+      <h2 class="category">News</h2>
+      <a href="#" class="post-title">OpenAI's Sam Altman, Google's Sundar Pichai asked to pay for using works of over
+        8000 authors to train AI</a>
+      <span class="post-date">20 July 2023</span>
+      <p class="post-description">Generative AI chatbots like GPT-4 or Google Bard and more are trained by feeding
+        thousands of datasets. Authors Guild has signed an open letter urging generative AI leaders like OpenAI CEO Sam
+        Altman, Google chief Sundar Pichai, Meta (Facebook) founder Mark Zuckerberg and more to obtain consent, credit
+        and compensate the writers for using copyrighted materials for AI training.</p>
+    </div>
+    <!-- Post 6 -->
+    <div class="post-box tech hover">
+      <img src="images/tech-sony.avif" alt="" class="post-img">
+      <h2 class="category">Technologys</h2>
+      <a href="#" class="post-title">Sony PS5 accessibility controller to go on sale in December</a>
+      <span class="post-date">12 Feb 2022</span>
+      <p class="post-description">At CES 2023, Sony officially teased its PS5 accessibility controller. Dubbed “Project
+        Leonardo,” the controller featured a circular form factor with a built-in customizable gamepad, tailor-made for
+        gamers with disabilities. Sony has now confirmed that the $90-priced PS5 accessibility controller will finally
+        go on sale in December.</p>
+    </div>
+    <!-- Post 7 -->
+    <div class="post-box tech hover">
+      <img src="images/tech-news.avif" alt="" class="post-img">
+      <h2 class="category">Tech</h2>
+      <a href="#" class="post-title">Electron rains on Mercury cause X-ray auroras, finds BepiColombo during close
+        flyby</a>
+      <span class="post-date">12 Feb 2022</span>
+      <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique,
+        rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae
+        iste architecto. Corporis, voluptates.</p>
+    </div>
+    <!-- Post 1 -->
+    <div class="post-box news hover">
+      <img src="images/ai-news.avif" alt="" class="post-img">
+      <h2 class="category">News</h2>
+      <a href="#" class="post-title">AI will take away jobs of outsourced coders in India in next 2 years: Stability AI
+        CEO</a>
+      <span class="post-date">20 july 2023</span>
+      <p class="post-description">Artificial Intelligence has been identified as a threat to certain categories in the
+        job market. Stability AI CEO Emad Mostaque believes that AI will wipe off jobs of most of the outsourced
+        programmers in India in the next two years, reported CNBC.</p>
+
+    </div>
+    <!-- Post 9 -->
+    <div class="post-box teach hover">
+      <img src="images/birds.jpg" alt="" class="post-img">
+      <h2 class="category">Education</h2>
+      <a href="#" class="post-title">Camino De Agua: Memorias de Canal Nacional</a>
+      <span class="post-date"> Nov 2022</span>
+      <p class="post-description">A rare survivor of the Mexico City’s once-expansive network of canals, the Canal
+        Nacional exemplifies the power of community stewardship. This bilingual publication documents the sites's
+        history, its past and current relevance, and the project activities that carried out in 2021 and 2022 with..</p>
+    </div>
+    <div class="post-box entertainment hover">
+      <img src="images/cricket.webp" alt="" class="post-img">
+      <h2 class="category">Entertainment</h2>
+      <a href="#" class="post-title">ENG vs AUS, 4th Ashes Test: England Win The Toss, Opt To Bowl</a>
+      <span class="post-date">19 July 2023</span>
+      <p class="post-description">England have won the toss and have opted to field against Australia in the fourth
+        Ashes Test.</p>
+    </div>
+    <div class="post-box entertainment hover">
+      <img src="images/game.webp" alt="" class="post-img">
+      <h2 class="category">Entertainment</h2>
+      <a href="#" class="post-title">Baldur's Gate 3 release date pushed forward to August 3 on PC, pushed back to
+        September 6 on PS5</a>
+      <span class="post-date">12 Feb 2022</span>
+      <p class="post-description">Highly anticipated: Fans who couldn't wait another two months to play the final
+        version of Baldur's Gate 3 should be pleased to know that the wait has been cut down to a little over a month
+        for PC players. Developer Larian Studios has also shared extensive new details about the characters, races,
+        classes, and other content available upon launch.</p>
+    </div>
+    <div class="post-box entertainment hover ">
+      <img src="images/bat-man.avif" alt="" class="post-img">
+      <h2 class="category">Entertainment</h2>
+      <a href="#" class="post-title">Batman, Superman Animated Series Set at HBO Max and Cartoon Network</a>
+      <span class="post-date">12 Feb 2022</span>
+      <p class="post-description">New Batman and Superman animated series are on their way. HBO Max and Cartoon Network
+        announced Wednesday that J.J. Abrams, The Batman director Matt Reeves, and DC Animated Universe architect Bruce
+        Timm would serve as executive producers on Batman: Caped Crusader that will reimagine the Gotham City hero's
+        mythology.</p>
+    </div>
+  </div>
+
+  <!-- footer  -->
+
+  <footer class="footer-distributed mt-5">
+
+    <div class="footer-left">
+
+      <h3><span>Blog</span></h3>
+
+      <p class="footer-links">
+        <a href="#home" class="link-1">Home</a>
+
+        <a href="#blog">Blog</a>
+
+        <a href="#about">About</a>
+
+
+        <a href="#">Contact</a>
+      </p>
+
+    </div>
+
+    <div class="footer-center">
+
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>Location</span> Lucknow , Uttar Pradesh </p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>+91 7355731048</p>
+      </div>
+
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:support@company.com">vikasyadav0930@gmail.com</a></p>
+      </div>
+
+    </div>
+
+    <div class="footer-right">
+
+      <p class="footer-company-about">
+        <span>About the Bloging</span>
+        Welcome to our blog, where we provide the latest updates and insights on technology, news, education, and
+        entertainment. Our team of writers is dedicated to delivering high-quality content that informs, educates, and
+        entertains our readers.
+      </p>
+
+      <div class="footer-icons">
+
+        <a href="#"><i class="fa-brands fa-facebook"></i></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
